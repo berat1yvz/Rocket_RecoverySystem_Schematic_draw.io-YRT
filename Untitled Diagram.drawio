@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T13:19:47.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2m6AEN2d7UhBZnYHBMcL" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T13:39:58.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KKcr6HTYZVb-lMXg5i0g" version="23.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="310" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="714" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -51,8 +51,8 @@
         <mxCell id="jm2D2IKr8xj5Y7DlY04t-12" value="Hayır" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="165" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jm2D2IKr8xj5Y7DlY04t-13" value="BNO055 gelen açı verilerini ve MS5611 den gelen irtifa verilerini filtrele" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-13" value="BNO055 gelen açı verilerini ve MS5611 den gelen irtifa verilerini oku ve filtrele" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="303.75" y="100" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jm2D2IKr8xj5Y7DlY04t-14" value="İrtifa ve açı verilerini oku, önceki irtifa ile şimdiki irtifayı karşılaştır" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="100" width="120" height="60" as="geometry" />
@@ -123,6 +123,92 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="460" as="sourcePoint" />
             <mxPoint x="490" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-30" value="Sürüklenme paraşütü açıldı mı?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="303.75" y="470" width="122.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-33" value="BNO055 gelen açı verilerini ve MS5611 den gelen irtifa verilerini oku ve&amp;nbsp; filtrele" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="299.25" y="620" width="131.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-30" target="jm2D2IKr8xj5Y7DlY04t-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="460" as="sourcePoint" />
+            <mxPoint x="170" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-35" value="Evet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="569.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.459;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-27" target="jm2D2IKr8xj5Y7DlY04t-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="sourcePoint" />
+            <mxPoint x="360" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-39" value="Ana paraşütü aç, yer istasyonuna sürüklenme paraşütü açılmadı verisi gönder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-30" target="jm2D2IKr8xj5Y7DlY04t-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="510" as="sourcePoint" />
+            <mxPoint x="270" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-41" value="Hayır" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="249.25" y="480" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-42" value="İrtifa &amp;lt;=500 mü?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="302.5" y="740" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-33" target="jm2D2IKr8xj5Y7DlY04t-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="760" as="sourcePoint" />
+            <mxPoint x="340" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-44" value="Hız 10 ile 50 arasında mı?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="297.5" y="860" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-42" target="jm2D2IKr8xj5Y7DlY04t-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="870" as="sourcePoint" />
+            <mxPoint x="340" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-42" target="jm2D2IKr8xj5Y7DlY04t-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="780" as="sourcePoint" />
+            <mxPoint x="280" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="780" />
+              <mxPoint x="260" y="750" />
+              <mxPoint x="250" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-47" value="Hayır" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="708" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-48" value="Evet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="818" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-50" value="Ana paraşütü aç" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-44" target="jm2D2IKr8xj5Y7DlY04t-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="990" as="sourcePoint" />
+            <mxPoint x="310" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-52" value="BNO055 gelen açı verilerini ve MS5611 den gelen irtifa verilerini oku ve&amp;nbsp; filtrele, verileri micro SD karta kaydet ve yer istasyonuna ilet" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="278" y="1070" width="174" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jm2D2IKr8xj5Y7DlY04t-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jm2D2IKr8xj5Y7DlY04t-50" target="jm2D2IKr8xj5Y7DlY04t-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1090" as="sourcePoint" />
+            <mxPoint x="300" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
